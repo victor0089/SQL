@@ -1,5 +1,5 @@
 # SQL
-
+Comments for your SQL file:
 ```bash
 $ cat my_script.sql
 -- 3 first students in the Batch ID=3
@@ -15,7 +15,7 @@ $ mysql --version
 mysql  Ver 8.0.25-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 $
 ```
-
+Connect to your MySQL server:
 ```bash
 $ sudo mysql
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -41,9 +41,9 @@ Use “container-on-demand” to run MySQL
 In the container, credentials are root/root
 
 Ask for container Ubuntu 20.04
-Connect via SSH
-OR connect via the Web terminal
-In the container, you should start MySQL before playing with it:
+* Connect via SSH
+* OR connect via the Web terminal
+* In the container, you should start MySQL before playing with it:
 ```bash
 $ service mysql start                                                   
  * Starting MySQL database server mysqld 
