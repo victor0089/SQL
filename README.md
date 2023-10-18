@@ -76,4 +76,4 @@ id  name
 8   Thriller
 $
 ```
-<img src="./sgljoin.png">
+<img src="https://github.com/victor0089/SQL/main/blob/sgljoin.png">
